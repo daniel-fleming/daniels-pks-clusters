@@ -1,0 +1,19 @@
+
+[
+   {
+      "name": "dev-cluster",
+      "plan_name": "small",
+      "last_action": "CREATE",
+      "last_action_state": "in progress",
+      "last_action_description": "Instance provisioning in progress",
+      "uuid": "2027c3ab-cd37-4a4f-8e29-b2341c0eef4a",
+      "kubernetes_master_ips": [
+         "In Progress"
+      ],
+      "parameters": {
+         "kubernetes_master_host": "doesnotmatter.local",
+         "kubernetes_master_port": 8443,
+         "kubernetes_worker_instances": 3
+      }
+   }
+]
