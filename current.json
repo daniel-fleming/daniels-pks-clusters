@@ -1,0 +1,19 @@
+
+[
+   {
+      "name": "medium-cluster",
+      "plan_name": "medium",
+      "last_action": "CREATE",
+      "last_action_state": "in progress",
+      "last_action_description": "Instance provisioning in progress",
+      "uuid": "1d566ef7-17ee-4406-bef2-53d594a7a776",
+      "kubernetes_master_ips": [
+         "In Progress"
+      ],
+      "parameters": {
+         "kubernetes_master_host": "doesnotmatter.local",
+         "kubernetes_master_port": 8443,
+         "kubernetes_worker_instances": 5
+      }
+   }
+]
