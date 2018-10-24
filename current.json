@@ -1,0 +1,35 @@
+
+[
+   {
+      "name": "prod-cluster",
+      "plan_name": "medium",
+      "last_action": "CREATE",
+      "last_action_state": "succeeded",
+      "last_action_description": "Instance provisioning completed",
+      "uuid": "1bc003a4-05a0-4b02-9c04-11e09abb92e4",
+      "kubernetes_master_ips": [
+         "10.195.75.165"
+      ],
+      "parameters": {
+         "kubernetes_master_host": "doesnotmatter.local",
+         "kubernetes_master_port": 8443,
+         "kubernetes_worker_instances": 3
+      }
+   },
+   {
+      "name": "workshop-0",
+      "plan_name": "small",
+      "last_action": "CREATE",
+      "last_action_state": "succeeded",
+      "last_action_description": "Instance provisioning completed",
+      "uuid": "84a953df-6153-4ef8-b941-4122a7f68430",
+      "kubernetes_master_ips": [
+         "10.195.75.136"
+      ],
+      "parameters": {
+         "kubernetes_master_host": "workshop-0-hostname",
+         "kubernetes_master_port": 8443,
+         "kubernetes_worker_instances": 3
+      }
+   }
+]
